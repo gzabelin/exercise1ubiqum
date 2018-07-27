@@ -1,0 +1,175 @@
+#sideimg {display: none;}
+/*#content h2 {display: none;}*/
+#articlehead_design1 {display: none;} 
+span.NavlinkSeparator {display: none;}
+
+body {
+    margin-left: 240px;
+    width: 1000px;
+    
+/*
+    display: table-cell;
+    vertical-align: middle;
+*/
+}
+
+/*
+
+CENTER THE BODY INSTEAD OF RELYING ON MARGIN
+
+*/
+
+header {
+    background-image: url(../design2_image1.jpg);
+    background-size:cover;
+    background-position: top;
+    height: 200px;
+    margin-top: 100px;
+    
+}
+
+h1{
+    font: 50px arial;
+    font-style: italic;
+    display: inline-block;
+    position: absolute;
+    margin-top: -60px;
+}
+
+#logo {
+    height: 150px;
+    width: 150px;
+    
+/*
+    float: right;
+    margin-right:75px;
+*/
+    position: absolute;
+    margin-left: 15px;
+    margin-top: 300px;
+}
+
+img {
+    max-height: 100%;
+}
+ 
+#pageheading h2 {
+    margin: 0;
+    padding: 5px;
+
+   
+    background-color: black;
+    color: white;
+    font-family: sans-serif;
+    font-size: 25px;
+    
+    text-align: center;    
+    }
+
+
+
+nav {
+    display: inline-block;
+    float: right;
+    margin-top: -20px;
+
+    
+    
+}
+
+nav a {
+    font-family: sans-serif;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 5px;
+    
+    color: white;
+    
+    box-shadow: 5px 5px black;
+    border: 2px solid black;
+    text-decoration: none;
+
+}
+ 
+
+/*
+
+a:link, a:visited {
+    font-weight: normal;
+}
+
+a.current:visited {
+  font-weight: bold;
+}
+
+THIS IS NOT NECESSARY FOR THE LINK-BOLDING TO WORK
+*/
+
+nav a:link {
+    background-color: darkblue;
+}
+
+a.current:link {
+    background-color: darkgreen;
+}
+
+
+
+
+
+
+article {
+    display: inline-block;
+    margin-left: 200px;
+    padding-top: 55px;
+    width: 800px;
+}
+
+article h2 {
+    font-family: sans-serif;
+    margin-bottom: 0;
+    
+}
+
+
+.date {
+    font-style: italic;
+    font-family: sans-serif;
+    margin-top: 0;
+    padding-top: 15px;
+}
+
+.activity {
+    padding-left: 25px;
+    font-family: sans-serif;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
